@@ -6,6 +6,7 @@ import Plants from './plants';
 import PlantDetailsScreen from './PlantDetailsScreen';
 // import Predict from './Predict';
 // import './ImagePickerComponent'
+import modelling from './Model';
 import ImagePickerComponent from './ImagePickerComponent';
 import Main from './Image'
 
@@ -14,7 +15,7 @@ const Stack = createStackNavigator();
   export default function App() {
   return (
     // <Predict/>
-      <ImagePickerComponent />
+      <modelling />
       // <Main />
       
       // <Main/>
