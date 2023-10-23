@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: #4CAF50; /* Green background color */
+  color: #ffffff; /* White text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="file"] + label {
+  background-color: #357a38; /* Dark green button background color */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+input[type="file"] + label:hover {
+  background-color: #4CAF50; /* Green button background color on hover */
+}
+
+img {
+  margin: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+button {
+  background-color: #357a38; /* Dark green button background color */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green button background color on hover */
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
